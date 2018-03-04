@@ -16,64 +16,87 @@ body {
   font-size: 1em;
 }
 
-.header {
-  height: 100px;
+header {
+  height: 70px;
   width: 100%;
+  background-color: #d6b7b7;
 }
 
-.navigation table {
+header h1 {
+    padding: 1%;
+    padding-top: 2%;
+}
+
+nav table {
   background-color: #ffefef;
   border-collapse: collapse;
   border-bottom: 1px solid #cccccc;
   width: 100%;
+  margin-bottom: 0%;
 }
 
-.navigation tr {
+nav tr {
   font-size: 0.85em;
   height: 20px;
   text-align: center;
 }
 
-.navigation a {
+nav a {
   text-decoration: none;
   color: black;
+  font-size: 1.2em;
 }
 
-.navigation td:hover {
+nav td:hover {
   background-color: #d6b7b7;
 }
 
-.jumbotron table {
+#main_content table {
   width: 100%;
   height: auto;
   border-collapse: collapse;
 }
 
-.jumbotron td {
-    padding-left: 1%;
+#main_content td {
+  padding-left: 2%;
 }
 
 #welcome_img {
-  width: 60%;
+  width: 40%;
 }
 
 #welcome_img img {
   width: 100%;
   height: auto;
-}
-
-#welcome_text {
-  width: 40%;
-  padding-right: 1%;
+  border: 7px solid #cccccc;
 }
 
 #welcome_text div {
+  width: auto;
   border: 1px solid #cccccc;
   background-color: #ffffff;
   height: auto;
   padding: 2%;
+  margin-left: 2%;
+  margin-right: 4%;
 }
 
 #welcome_text h3 {
   font-variant: small-caps;
+}
+
+form {
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+#contact_content {
+  width: auto;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  height: auto;
+  padding: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
 }
