@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Joy Silvey | Contact</title>
+  <link href="https://fonts.googleapis.com/css?family=Arvo|Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="main.css" />
 </head>
 
@@ -14,27 +15,37 @@
     <tr>
       <td><a href="index.html"><div>Home</div></a></td>
       <td><a href="about.html"><div>About</div></a></td>
-      <td><a href=""><div>Projects</div></a></td>
+      <td><a href="projects.html"><div>Projects</div></a></td>
       <td><a href="contact.html"><div>Contact</div></a></td>
     </tr>
   </table>
 </nav>
 
+<div class="meat">
 <section id="contact_content"><h2>Contact</h2>
-<p>Please enter your contact information and message through the form below.</p>
+<p>Alright, so I'll be honest – this form is functionally useless. If you'd <i>actually</i> like
+to contact me, please send me an <a href="mailto:silveyjoy@gmail.com">email</a>.</p>
 <form>
-    <p>Name: <br>
-        <input type="input" name="userName" /></p>
-    <p>Email: <br>
-        <input type="inpit" email="userEmail" /></p>
-    <p>Subject: <br>
-        <input type="input" subject="messageSubject" /></p>
-    <p>Message: <br>
-        <input type="input" message="userMessage" /></p>
-    <br>
-    <p><input type="submit" value="Submit" onclick="window.confirm('Are you sure you want to submit?')" /></p>
+    <label for="name">Name:</label>
+      <br><input type="text" id="name" required="true"/>
+    
+    <br><label for ="email">Email:</label>
+      <br><input type="email" id="email" required/>
+    
+    <br><label for="subject">Subject:</label>
+      <br><input type="text" id="subject" required/>
+    
+    <br><label for="message">Message:</label>
+      <br><textarea name="message" rows="10" cols="50" required></textarea>
+    
+    <br><input type="submit" onclick="window.confirm('Are you sure you want to submit?')"/>
 </form>
 </section>
+</div>
+
+<footer>
+    <h3>Designed by Joy Silvey. Last updated 2018-08-06.</h3>
+</footer>
 
 </body>
 </html>
